@@ -54,45 +54,23 @@ Todas as páginas usam o sistema de grid do Bootstrap (`row`, `col-*`, `col-lg-*
 
 ### Página Inicial
 
-**Antes:** layout fixo em `px`, sem breakpoints reais, botões em grid CSS customizado que não se adaptava bem a telas pequenas, navegação simulada por `display:none`/`display:block` em JavaScript.
-
-**Depois:** navbar Bootstrap fixa e responsiva, grid `row`/`col-lg-*` que empilha corretamente no mobile, botões com componentes nativos (`btn`, `btn-outline-primary`), foto real do campus com proporção controlada.
-
 <img width="1600" height="568" alt="antes e depois home" src="https://github.com/user-attachments/assets/addab300-83e2-4d55-b4c7-4d8868605366" />
 
 ### Biblioteca
-
-**Antes:** galeria de imagens com CSS manual (`flex`, `aspect-ratio` escritos à mão), busca sem `<form>` real, resultado tratado só via JavaScript.
-
-**Depois:** galeria com `row`/`col-6` do Bootstrap, formulário HTML real (`<form method="get">`) que envia a busca por query string para `resultados.html`, sem depender de JS para navegar.
 
 <img width="1600" height="571" alt="Antes e depois biblioteca" src="https://github.com/user-attachments/assets/8ee6016d-025e-47a6-87fe-fdc5aecc4057" /><img width="1600" height="574" alt="antes e depois processo seletivo" src="https://github.com/user-attachments/assets/11523aa6-92ea-4cef-8f8f-f387886f85de" />
 
 
 ### Processos Seletivos / Cursos
 
-**Antes:** menu de categorias como botões JS que trocavam o conteúdo de uma `<section>` escondida, sem URL própria para cada categoria.
-
-**Depois:** cada categoria é um link real (`<a href="curso-unidade.html?categoria=...">`) para uma página própria, o que permite compartilhar/favoritar o link de uma categoria específica — algo impossível na versão anterior.
-
 <img width="1600" height="574" alt="antes e depois processo seletivo" src="https://github.com/user-attachments/assets/f553c621-567e-4c3a-bb47-6d52c2401682" />
 <img width="1275" height="721" alt="pesquisa processo seletivo depois" src="https://github.com/user-attachments/assets/5f2c44f9-e402-4516-9056-896fad63ae76" />
 
-
-
 ### Resultados / Pesquisa e Extensão
-
-**Antes:** a pesquisa integrada não existia como página própria — a busca só filtrava um bloco de texto dentro da mesma tela, sem uma seção dedicada a programas de pesquisa e extensão.
-
-**Depois:** `resultados.html` tem uma tabela Bootstrap (`table`, `table-striped`) para os resultados e, abaixo, uma seção "Pesquisa e Extensão" com os mesmos atalhos do SIGAA original (Ações de Extensão, Cursos e Eventos, Pesquisadores, Bases de Pesquisa, Iniciação Científica etc.), em botões `btn-primary` organizados numa grade `row-cols-md-2` responsiva.
 
 <img width="1600" height="570" alt="antes e depois pesquisa e extensao" src="https://github.com/user-attachments/assets/58eece39-538a-44a6-ac62-cbedb750cf46" />
 
 ### Livros e Artigos
-
-**Antes:** os filtros "Livros" e "Artigos" da biblioteca só trocavam o termo pesquisado dentro da mesma tela de resultados, sem URL própria para cada filtro.
-
-**Depois:** `livros.html` e `artigos.html` são páginas dedicadas (cópias de `resultados.html` sem a seção "Pesquisa e Extensão", que não faz sentido nesse contexto), cada uma com sua própria URL — permitindo voltar, compartilhar ou favoritar o filtro específico.
 
 <img width="1600" height="571" alt="antes e depois livro" src="https://github.com/user-attachments/assets/da19ac72-1337-4816-bb14-80b5603b57d2" />
 
@@ -100,10 +78,6 @@ Todas as páginas usam o sistema de grid do Bootstrap (`row`, `col-*`, `col-lg-*
 
 
 ### Serviços
-
-**Antes:** botões de serviços administrativos e diplomas em um grid CSS manual, sem hierarquia visual clara entre as duas áreas.
-
-**Depois:** grid Bootstrap (`row-cols-2`/`row-cols-md-3`) para os botões administrativos e uma coluna dedicada, com botões grandes em destaque (`btn-outline-primary`), para consulta de diplomas e autenticação de documentos.
 
 <img width="1600" height="575" alt="antes e depois academico" src="https://github.com/user-attachments/assets/41561c94-1e48-4b5f-8203-28bf15d95ca3" />
 
