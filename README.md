@@ -121,12 +121,12 @@ Basta abrir `index.html` no navegador — não há dependência de servidor. Par
 
 ## Deploy
 
-Link do site publicado: `[adicionar aqui após o deploy]`
+Link do site publicado: `https://mlsr-lang.github.io/redesign-sigaa-bootstrap/index.html`
 
 ## Repositório
 
-Link do repositório no GitHub: `[adicionar aqui]`
+Link do repositório no GitHub: `https://github.com/mlsr-lang/redesign-sigaa-bootstrap.git`
 
 ## Autor(es)
 
-`[adicionar nome(s) e matrícula(s) aqui]`
+` LAVINIA HELLEN CRUZ DE ASSIS, 20230091890;MARIA LUIZA SILVA RIOS, 20200009863;  RICARDO HENRIQUE COELHO NUNES, 20200011440;`
